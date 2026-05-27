@@ -10,7 +10,7 @@ const client = new Client({
 
 const PREFIX = '!';
 
-client.on('ready', () => {
+client.on('clientReady', () => {
     console.log(`${client.user.tag} is online!`);
 });
 
@@ -27,4 +27,4 @@ client.on('messageCreate', async (message) => {
     }
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login('MTUwOTE1NTc5MjQyMTM5MjQ4NA.GNXhSH.oHka7Om1EQiCwmHjZXtJposUXyYl7AavXDHMn0');
