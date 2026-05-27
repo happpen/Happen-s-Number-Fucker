@@ -10,7 +10,7 @@ const client = new Client({
 
 const PREFIX = '!';
 
-client.on('ready', () => {
+client.on('clientReady', () => {
     console.log(`${client.user.tag} is online!`);
 });
 
